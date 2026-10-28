@@ -8,10 +8,20 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1. Start the program.
+2. Import the required libraries and load the `50_Startups.csv` dataset.
+3. Encode the categorical `State` column using one-hot encoding.
+4. Separate the input features (X) and target variable (Profit).
+5. Standardize the features and target variable using `StandardScaler`.
+6. Add a bias term (column of ones) to the feature matrix.
+7. Initialize the model parameters (theta) to zero.
+8. Calculate the cost using Mean Squared Error.
+9. Compute gradients and update theta using gradient descent until convergence or the maximum number of iterations is reached.
+10. Plot the cost function to visualize convergence.
+11. Prepare a new startup sample, encode and scale its features, and predict its profit.
+12. Convert the predicted profit back to the original scale and display the result.
+13. Stop the program.
 
 ## Program:
 ```
